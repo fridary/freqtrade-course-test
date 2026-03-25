@@ -5,6 +5,6 @@ services:
     volumes:
       - ./freqtrade:/freqtrade/freqtrade
       - ./user_data:/freqtrade/user_data
-      - ${DATA_PATH}:/freqtrade/data
+      - ./market_data:/freqtrade/market_data
     environment:
       - PYTHONPATH=/freqtrade
