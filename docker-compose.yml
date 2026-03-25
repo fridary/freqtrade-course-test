@@ -1,0 +1,10 @@
+services:
+  freqtrade:
+    build: .
+    image: my-freqtrade:latest
+    volumes:
+      - ./freqtrade:/freqtrade/freqtrade
+      - ./user_data:/freqtrade/user_data
+      - ${DATA_PATH}:/freqtrade/data
+    environment:
+      - PYTHONPATH=/freqtrade

@@ -1,0 +1,6 @@
+{
+    "max_open_trades": 50, // 2% risk
+    "stake_amount": "unlimited",
+    "available_capital": 10000,
+    "dry_run_wallet": 10000,
+}

@@ -1,0 +1,10 @@
+.env
+.DS_Store
+__pycache__/
+*.pyc
+*.egg-info/
+user_data/backtest_results/
+user_data/logs/
+user_data/plot/
+.idea/
+.vscode/
